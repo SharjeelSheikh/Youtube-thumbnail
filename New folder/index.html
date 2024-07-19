@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <a href="style.css"></a>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Thumbnail </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        canvas {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>YouTube Thumbnail </h1>
+    <canvas id="thumbnailCanvas" width="1280" height="720"></canvas>
+    <br>
+    <button id="generateThumbnail">Generate Thumbnail</button>
+    <br><br>
+    <a id="downloadLink" download="thumbnail.png">Download Thumbnail</a>
+    <script src="index.js"></script>
+</body>
+</html>
